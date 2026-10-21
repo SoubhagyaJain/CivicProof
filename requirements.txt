@@ -1,0 +1,3 @@
+# CivicProof runtime dependencies.
+# Lessons 1-2 use only Python's standard library: no third-party packages yet.
+# Add tested package versions here when the application first needs them.
