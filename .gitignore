@@ -1,0 +1,26 @@
+# Python-generated files and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Development outputs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Document inputs and generated outputs need a deliberate dataset policy.
+# Small reviewed, redistribution-permitted fixtures may be added separately later.
+data/raw/
+data/derived/
+data/outputs/
